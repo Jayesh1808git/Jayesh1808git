@@ -1,109 +1,154 @@
+# Hey, I'm Jayesh Gund 👋
+
+### AI/ML Engineer • LLMs • RAG • Agentic AI
+
+I’m an **AI/ML engineering student** who enjoys turning messy, unstructured information into systems that can actually reason over it.
+
+I build **RAG pipelines, AI agents, LLM evaluation systems, and intelligent data applications** — with a focus on retrieval quality, system reliability, and practical deployment.
+
+Currently exploring **LLM engineering, agentic workflows, model evaluation, and production AI systems.**
+
+<p>
+  <a href="https://linkedin.com/in/jayesh-gund-19790b276">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:jayeshgund2005@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/Jayesh1808git">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-# Jayesh Gund
-## 🏆 Core Expertise
+##  What I Build
 
-<div align="center">
+|  LLM Applications |  Retrieval Systems |
+|:---|:---|
+| RAG • AI Agents • LLM Evaluation | Hybrid Search • BM25 • Reranking |
+| LangChain • LangGraph | FAISS • Qdrant • Knowledge Graphs |
 
-| 🤖 **AI Agents** | 🔍 **RAG Systems** | 
-|:---:|:---:|
-| Multi-Agent Architectures | Semantic Search |
-| Tool-Calling & Function Execution | Vector Databases |
-| Autonomous Workflows | Document Retrieval |
+|  ML Systems |  Backend & Deployment |
+|:---|:---|
+| NLP • Prediction • Analytics | FastAPI • Docker • REST APIs |
+| PyTorch • Scikit-learn | PostgreSQL • GitHub Actions |
 
-</div>
+> **My focus:** turning AI models and research ideas into reliable, usable software.
 
----
+#  Selected Projects
 
-## 🛠️ Tech Stack & Skills
+###  CyberRAG
+**Agentic Threat Intelligence & Vulnerability Intelligence Platform**
 
-### 🤖 Machine Learning & AI
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+> An AI system that connects vulnerability intelligence with an organization's actual technology stack.
 
-### 🔗 LLMs & RAG
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-5340FF?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUg&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=database&logoColor=white)
+- Ingests vulnerability intelligence from sources such as **NVD, CISA KEV, MITRE and vendor advisories**
+- Uses **hybrid retrieval** combining semantic search, BM25 and knowledge-graph retrieval
+- Multi-agent workflow for **retrieval, relevance analysis, validation, prioritization and remediation**
+- Matches vulnerabilities against organization-specific **technologies and versions**
+- Built with **FastAPI, LangGraph, PostgreSQL, Qdrant and Neo4j**
 
-### ⚙️ MLOps & Tools
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
+**→ [View Project](https://github.com/Jayesh1808git/Agentic-Threat-Intelligence-Platform)**
 
 ---
 
-## 🔥 Featured Projects
+###  Multi-Agent Investment Banking Analyst
+**Agentic AI for Financial Research & Analysis**
 
-### 🏥 **Medical RAG Chatbot**
-**Intelligent healthcare assistant using Retrieval Augmented Generation** 
-- 🔍 Built production-ready RAG system for medical query resolution
-- 🧠 Integrated **LangChain** with **Groq API** for fast inference
-- 📚 Implemented **semantic chunking** and **vector search** with FAISS
-- ⚡ Achieved sub-second response time with context-aware answers
-- **Tech Stack:** Python, LangChain, Groq API, FAISS, FastAPI, Semantic Search
+> A multi-agent system designed to break complex investment research into specialized workflows.
 
-**Key Features:**
-- Multi-document retrieval with re-ranking
-- Context window optimization for long documents
-- Hallucination detection and source citation
-- RESTful API for easy integration
+- Specialized agents for **company research, financial analysis and investment workflows**
+- Agent coordination using **LangGraph**
+- Structured retrieval and reasoning for financial information
+- Generates research outputs designed for downstream analysis
 
-
-
-
-
-### ❤️ **[Heart Disease Prediction Model](https://github.com/Jayesh1808git/Heart-Disease-Prediction-Model-using-Logistic-Regression)**
-**ML model for cardiovascular disease prediction**
-- 🏥 Achieved high accuracy using ensemble methods
-- 📊 Comprehensive **EDA** and **feature engineering**
-- 🔬 Statistical analysis and model interpretability
-- **Tech Stack:** Python, Scikit-Learn, Pandas, Matplotlib
+**→ [View Project](https://github.com/Jayesh1808git/MultiAgent_Investment_Banking_Analyst)**
 
 ---
 
-### 📊 **[EDA on Loan Data](https://github.com/Jayesh1808git/EDA-on-Loan-Data)**
-**In-depth exploratory data analysis**
-- 📈 Analyzed loan default patterns and risk factors
-- 📊 Created insightful visualizations and statistical summaries
-- 🔍 Feature importance analysis for predictive modeling
-- **Tech Stack:** Python, Pandas, Seaborn, Matplotlib
+###  ModelArena
+**LLM Evaluation & Benchmarking Platform**
+
+> A platform for systematically comparing LLMs instead of judging outputs by intuition.
+
+- Benchmarks multiple models across standardized tasks
+- Compares **quality, reliability and latency**
+- Designed for repeatable **LLM experimentation and evaluation**
+- Focuses on making model selection more measurable
+
+**→ [View Project](https://github.com/Leogabriele/TE_Group03)**
 
 ---
 
-## 📊 GitHub Statistics
+##  Tech I Work With
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jayesh1808git&theme=tokyo-night&hide_border=true" />
-</div>
+### AI / Machine Learning
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+</p>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Jayesh1808git&show_icons=true&theme=tokyonight&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayesh1808git&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
+### LLM / GenAI
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" />
+</p>
 
-
+### Backend / Data / Infrastructure
+<p>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
 ---
 
-## 💼 What I'm Looking For
+##  Currently Exploring
 
-I'm actively seeking **Machine Learning Engineer** and **AI/ML opportunities** focused on:
-- 🤖 Building and deploying **AI Agent systems** in production
-- 🔍 Developing scalable **RAG applications** with LLMs
-- 🚀 Implementing **MLOps** pipelines and model deployment
-- 🧠 Working on cutting-edge **LLM fine-tuning** and optimization
-- 📊 Creating intelligent systems with **NLP** and **semantic search**
+- **Agentic AI** — designing multi-agent systems that can actually solve multi-step problems
+- **RAG Engineering** — hybrid retrieval, reranking, evaluation and retrieval quality
+- **LLM Fine-tuning** — efficient adaptation and quantization of smaller language models
+- **LLM Evaluation** — measuring quality, reliability and failure modes
+- **MLOps** — taking ML/LLM systems from notebooks to deployable services
 
 ---
 
+##  A Few Things About Me
 
+ **B.E. Artificial Intelligence & Machine Learning**  
+ I prefer building systems over making toy demos.  
+ Currently deepening my understanding of **LLM systems and ML engineering**.  
+ Most of my work happens in **Python**.  
+ Always experimenting with a new model, framework or architecture.
+ Currently looking for Internship or Job opportunities related to AIML
+
+---
+
+## 🤝 Let's Connect
+
+I'm currently looking for internship opportunities in:
+
+**AI Engineering · Machine Learning · Generative AI · LLM Engineering · RAG · Data Engineering**
+
+If you're working on something interesting in these areas, I'd be happy to connect.
+
+<p>
+  <a href="https://linkedin.com/in/jayesh-gund-19790b276">
+    <img src="https://img.shields.io/badge/Let's_connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<sub>Building things, breaking things, learning, and building them better.</sub>
